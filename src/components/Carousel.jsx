@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { feedBack } from "../constants/index";
-import { YellowArrow, Union } from "../assets";
+import { yellowArrow, Union } from "../assets";
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
@@ -43,7 +43,7 @@ const Carousel = () => {
                 alt={`Slide ${index + 1}`}
               />
               <img
-                src={YellowArrow}
+                src={yellowArrow}
                 className="w-[112.115px] h-[100px]  md:w-[160.163px] md:h-[160.163px] max-w-none"
                 alt={`YellowArrow`}
               />
