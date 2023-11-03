@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Fade } from "react-awesome-reveal";
 
 // eslint-disable-next-line react/prop-types
 function CountdownClock({ targetDate }) {
@@ -36,21 +37,31 @@ function CountdownClock({ targetDate }) {
 
   return (
     <div className="relative inline-flex border-[3px] border-solid border-[#F9AB00] lg:p-[40px] md:px-[32px] md:py-[43px] px-[51px] py-[21px] justify-center items-center lg:gap-[90px] md:gap-[24px] gap-y-[35px] gap-x-[16px] rounded-[50px] mt-16 flex-wrap">
-      <p className="text-[#F9AB00] font-google-sd md:text-[63px] text-[32px] leading-[normal]">
-        {days} day
-      </p>
-      <p className="text-[#FFF] font-google-sd md:text-[63px] text-[32px] leading-[normal] block">
-        {hours} Hours
-      </p>
-      <p className="text-[#F9AB00] font-google-sd md:text-[63px] text-[32px] leading-[normal]">
-        {minutes} Mins
-      </p>
-      <p className="text-[#FFF] font-google-sd md:text-[63px] text-[32px] leading-[normal]">
-        {seconds} sec
-      </p>
+      <Fade direction="up"  triggerOnce>
+        <p className="text-[#F9AB00] font-google-sd md:text-[63px] text-[32px] leading-[normal]">
+          {days} day
+        </p>
+      </Fade>
+
+      <Fade direction="down" triggerOnce>
+        <p className="text-[#FFF] font-google-sd md:text-[63px] text-[32px] leading-[normal] block">
+          {hours} Hours
+        </p>
+      </Fade>
+
+      <Fade direction="up" triggerOnce>
+        <p className="text-[#F9AB00] font-google-sd md:text-[63px] text-[32px] leading-[normal]">
+          {minutes} Mins
+        </p>
+      </Fade>
+
+      <Fade direction="down" triggerOnce>
+        <p className="text-[#FFF] font-google-sd md:text-[63px] text-[32px] leading-[normal]">
+          {seconds} sec
+        </p>
+      </Fade>
     </div>
   );
 }
 
 export default CountdownClock;
-

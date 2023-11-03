@@ -2,6 +2,7 @@ import { speakers } from "../constants/index";
 import { agendaIcon, arrowRight ,arrowLeft } from "../assets/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import { Fade,Slide } from "react-awesome-reveal";
 
 const SpeakersItem = () => {
   const [detH, setdetH] = useState(
@@ -31,23 +32,31 @@ const SpeakersItem = () => {
   return (
     <div className="relative w-full flex justify-center items-start gap-[30px] flex-wrap transition-all duration-1000  ">
       {speakers.map((speaker, index) => (
-        <div
+        <Slide
+        key={speaker.id}
+        direction="up"
+        triggerOnce
+        delay={index * 150} // Adjust the delay for a staggered effect
+      >
+         <div
           key={speaker.id}
-          className="relative w-[364px] min-h-[666px] bg-[#252525] rounded-[50px] pt-[88px] px-[26px] pb-[62px]"
+          className="relative w-full sm:w-[364px] min-h-[666px] bg-[#252525] rounded-[50px] pt-[88px] px-[26px] pb-[62px]"
           style={{
             border: `2px solid ${speaker.color}`,
           }}
         >
+          {/*  */}
+
           <img
             src={speaker.shape}
             alt="shape"
-            className="absolute top-[100px] right-0"
+            className="absolute  h-[84px] w-[63.808px] sm:w-auto sm:h-auto   top-[100px] right-0"
           />
-          <div className="flex flex-col items-center gap-[34px] font-google">
+        <div className="flex flex-col items-center gap-[34px] font-google">
             <img
               src={speaker.url}
               alt="-"
-              className="w-[151px] min-h-[151px]"
+              className="sm:w-[151px] sm:min-h-[151px] w-[110px] min-h-[110px]"
             />
             <div className="flex flex-col items-center gap-[15px]">
               <h1 className="text-white text-center font-google text-[32px] font-bold">
@@ -69,7 +78,7 @@ const SpeakersItem = () => {
               {showDetails[index] && (
                 <>
                   {speaker.captions.map((captionData, captionIndex) => (
-                    <ul key={captionIndex} className="leading-8 text-white">
+                    <ul key={captionIndex} className="leading-8 text-white w-full">
                       <li className="list-disc font-google-sd	text-[15px] font-normal ">
                         {captionData.caption}
                       </li>
@@ -118,7 +127,10 @@ const SpeakersItem = () => {
               </div>
             }
           </div>
+
         </div>
+      </Slide>
+       
       ))}
     </div>
   );

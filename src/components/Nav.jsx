@@ -2,10 +2,12 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { useState } from "react";
 
+
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
+    
     <nav className="w-full flex  px-12 justify-between items-center navbar bg-black h-[100px] border-b border-solid border-white overflow-hidden">
       <img
         src={logo}

@@ -1,8 +1,10 @@
+import { Fade } from "react-awesome-reveal";
 import { TypeAnimation } from "react-type-animation";
 
 const TypingText = () => {
   return (
-    <TypeAnimation
+   
+      <TypeAnimation
       sequence={[
         "Learn",
         2000,
