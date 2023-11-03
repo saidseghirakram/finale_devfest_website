@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className=" min-h-[1000px] pb-10 " id="home">
+      <div className="pt-[100px]  min-h-[1000px] pb-10 " id="home">
         <div className="flex   md:flex-row md:justify-between md:items-center    flex-col items-start justify-start       md:pl-4 sm:pl-10 ">
          <Fade direction="left" duration={2000} triggerOnce>
          <div className=" flex-1  flex-wrap flex flex-col  sm:flex-2 gap-[16px] items-start justify-between flex-shrink-0  p-5  md:p-5  ">

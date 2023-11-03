@@ -1,17 +1,37 @@
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
 
   return (
-    <nav className=" w-full flex  px-12 justify-between items-center navbar bg-black h-[100px] border-b border-solid border-white overflow-hidden">
+    <nav
+      className={`w-full flex px-12 justify-between items-center navbar bg-black h-[100px] border-b border-solid border-white overflow-hidden fixed top-0 z-10 transition-all duration-300 ${
+        !visible ? "-translate-y-full" : ""
+      }`}
+    >
       <img
         src={logo}
         alt="devfest"
-        className=" w-28 h-10 sm:w-44 sm:h-16 md:w-56 md:h-20 object-contain"
+        className="w-28 h-10 sm:w-44 sm:h-16 md:w-56 md:h-20 object-contain"
       />
 
       <ul className="list-none hidden lg:flex justify-center items-center flex-1">
@@ -29,7 +49,7 @@ const Nav = () => {
         ))}
       </ul>
 
-      <div className="flex lg:hidden flex-1 justify-end sm:justify-center items-center ">
+      <div className="flex lg:hidden flex-1 justify-end sm:justify-center items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -39,24 +59,24 @@ const Nav = () => {
 
         <div
           className={`${
-            toggle ? "flex" : "hidden"
-          }  bg-black absolute  top-[100px] right-0 p-10 w-full h-full z-50  duration-1000 `}
+            toggle ? "flex fixed" : "hidden"
+          } bg-black top-[100px] right-0 p-10 w-full h-full z-50 duration-1000 `}
         >
-          <ul className="list-none flex flex-col  justify-start items-center  pt-10 gap-8 flex-1">
+          <ul className="list-none flex flex-col justify-start items-center pt-10 gap-8 flex-1">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium	 cursor-pointer text-[16px]  ${
+                className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
-                } text-white  `}
+                } text-white`}
               >
-                 <Link to={nav.id} smooth duration={500}>
-              {nav.title}
-            </Link>
+                <Link to={nav.id} smooth duration={500}>
+                  {nav.id}
+                </Link>
               </li>
             ))}
 
-            <button className="bg-[#FDB705] px-5 py-3 rounded-md font-bold mt-10		">
+            <button className="bg-[#FDB705] px-5 py-3 rounded-md font-bold mt-10">
               Register Now
             </button>
           </ul>
