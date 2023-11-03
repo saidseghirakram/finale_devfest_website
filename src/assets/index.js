@@ -13,7 +13,7 @@ import playIcon from "./PlayIcon.svg"
 import highlits from "./highlights.svg"
 import devfestaboutBlue from "./devfestaboutBlue.svg"
 import Union from "./Union.svg"
-import yellowArrow from "./yellow_arrow.png"
+import yellowArrow from "./Vector.png"
 
 
 export { logo,highlits, Bannerbg_Yellow,playIcon,devfestaboutBlue,  close, menu ,medea23,devfestlogo ,netIcon , video_vector, icons,imageGDG, countdown, yellowArrow, Union};
