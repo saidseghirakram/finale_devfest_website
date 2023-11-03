@@ -4,7 +4,7 @@ import Map from "./Map";
 
 const Agenda = () => {
   return (
-    <div className="p-[20px] md:p-[62px]  w-full flex flex-col items-center gap-[130px] b">
+    <div id="agenda" className="p-[20px] md:p-[62px]  w-full flex flex-col items-center gap-[130px] b">
       <Fade direction="up" triggerOnce>
         <div className=" md:leading-loose    text-center leading-10 md:text-[48px]  text-[24px]">
           <span className="text-white capitalize  font-bold">

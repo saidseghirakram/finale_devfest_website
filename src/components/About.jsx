@@ -40,7 +40,7 @@ const About = () => {
   }, [participants, conferences]);
 
   return (
-    <div className="relative min-h-[2989px]">
+    <div className="relative min-h-[2989px]" id="about">
       <div className="flex w-[100%] md:justify-end justify-center mt-16">
        <Fade direction="right" triggerOnce>
        <img

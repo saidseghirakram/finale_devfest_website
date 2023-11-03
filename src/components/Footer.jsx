@@ -4,7 +4,7 @@ import { footer } from "../constants/index";
 import { Fade } from "react-awesome-reveal";
 const Footer = () => {
   return (
-    <div className="pb-[100px] w-full  pt-[180px] flex flex-col justify-center items-center gap-[27px]">
+    <div className="pb-[100px] w-full  pt-[180px] flex flex-col justify-center items-center gap-[27px]" id="footer">
       <img src={gdg} alt="gdg" className="w-[152.915px] h-[11.835px]" />
       <img src={medea} alt="medea" className=" w-[90.988px] h-[22.589px] " />
       <Fade direction="up" triggerOnce>

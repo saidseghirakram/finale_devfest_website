@@ -1,14 +1,13 @@
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { useState } from "react";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    
-    <nav className="w-full flex  px-12 justify-between items-center navbar bg-black h-[100px] border-b border-solid border-white overflow-hidden">
+    <nav className=" w-full flex  px-12 justify-between items-center navbar bg-black h-[100px] border-b border-solid border-white overflow-hidden">
       <img
         src={logo}
         alt="devfest"
@@ -23,7 +22,9 @@ const Nav = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-20"
             } text-white`}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <Link to={nav.id} smooth duration={500}>
+              {nav.title}
+            </Link>
           </li>
         ))}
       </ul>
@@ -49,10 +50,11 @@ const Nav = () => {
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 } text-white  `}
               >
-                <a href={`${nav.id}`}>{nav.title}</a>
+                 <Link to={nav.id} smooth duration={500}>
+              {nav.title}
+            </Link>
               </li>
             ))}
-
 
             <button className="bg-[#FDB705] px-5 py-3 rounded-md font-bold mt-10		">
               Register Now
@@ -61,7 +63,10 @@ const Nav = () => {
         </div>
       </div>
 
-      <button style={{ boxShadow: '0px 0px 70px 0px #FBBC04' }} className="hidden sm:block bg-[#FDB705] w-[206px] h-[47px] rounded-lg font-bold hover:text-white duration-700 hover:shadow-register-now" >
+      <button
+        style={{ boxShadow: "0px 0px 70px 0px #FBBC04" }}
+        className="hidden sm:block bg-[#FDB705] w-[206px] h-[47px] rounded-lg font-bold hover:text-white duration-700 hover:shadow-register-now"
+      >
         Register Now
       </button>
     </nav>
