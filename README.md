@@ -39,12 +39,12 @@ $ npm run dev
 ## 💻 Built With
 
 - **React**
-- **CSS**
 - **tailwindcss**
+- **React Animations**
+- **Tailwind CSS Carousel**
 
 ---
 
-## 🎥 Demo
 
 
 
