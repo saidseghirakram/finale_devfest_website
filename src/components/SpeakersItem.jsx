@@ -40,7 +40,7 @@ const SpeakersItem = () => {
         >
           <div
             key={speaker.id}
-            className="relative w-full sm:w-[364px] h-[550px] bg-[#252525] rounded-[50px] pt-[88px] px-[26px] pb-[62px]"
+            className="relative w-[80vw] sm:w-[364px] h-[550px] bg-[#252525] rounded-[50px] pt-[88px] px-[26px] pb-[62px]"
             style={{
               border: `2px solid ${speaker.color}`,
             }}

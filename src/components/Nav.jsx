@@ -51,7 +51,7 @@ const Nav = () => {
         ))}
       </ul>
 
-      <div className="flex lg:hidden flex-1 justify-end sm:justify-center items-center">
+      <div className="flex lg:hidden flex-1  justify-center items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -77,14 +77,14 @@ const Nav = () => {
               </li>
             ))}
 
-
+           
           </ul>
         </div>
       </div>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSep0M9OpmJsknJku8rXsjIX26Ltj4cmDgp4NNEajsaOE4p5Bg/viewform">
         <button
           style={{ boxShadow: "0px 0px 70px 0px #FBBC04" }}
-          className="hidden sm:block bg-[#FDB705] w-[206px] h-[47px] rounded-lg font-bold hover:text-white duration-700 hover:shadow-register-now"
+          className=" block bg-[#FDB705] w-[150px] sm:w-[206px] h-[47px]  rounded-lg font-bold hover:text-white duration-700 hover:shadow-register-now"
         >
           Register Now
         </button>
