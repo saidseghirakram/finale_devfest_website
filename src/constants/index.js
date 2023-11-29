@@ -177,8 +177,8 @@ export const speakers = [
   },
   {
     id: 3,
-    name: "Dr. Taha Zerrouki",
-    title: "Assistant Professor at Bouira University",
+    name: "Djallal Bouabdallah",
+    title: "engineer in Automatics and Electronics and Chief Strategy Officer",
     time: " 09:30 -11:00",
     url: DjallalBouabdallah,
     shape: red,
