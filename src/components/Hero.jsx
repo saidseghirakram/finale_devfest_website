@@ -11,7 +11,7 @@ import TypingText from "./TypingText";
 import { Fade } from "react-awesome-reveal";
 
 const Hero = () => {
-  const targetDate = new Date("2023-12-23T00:00:00").toISOString();
+  const targetDate = new Date("2023-12-24T00:00:00").toISOString();
 
   return (
     <>

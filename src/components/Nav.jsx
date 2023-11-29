@@ -9,24 +9,27 @@ const Nav = () => {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
-      setPrevScrollPos(currentScrollPos);
-    };
+    if (window.innerWidth >= 1024) {
 
-    window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+      const handleScroll = () => {
+        const currentScrollPos = window.scrollY;
+        setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+        setPrevScrollPos(currentScrollPos);
+      };
+
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
   }, [prevScrollPos]);
 
   return (
     <nav
-      className={`w-full flex px-12 justify-between items-center navbar bg-black h-[100px] border-b border-solid border-white overflow-hidden fixed top-0 z-10 transition-all duration-300 ${
-        !visible ? "-translate-y-full" : ""
-      }`}
+      className={`w-full flex px-12 justify-between items-center navbar bg-black h-[100px] border-b border-solid border-white overflow-hidden fixed top-0 z-10 transition-all duration-300 ${!visible ? "-translate-y-full" : ""
+        }`}
     >
       <img
         src={logo}
@@ -38,9 +41,8 @@ const Nav = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[20px] text-center w-[100px] py-1 hover:border-b-4 border-yellow-500 border-solid duration-200 ${
-              index === navLinks.length - 1 ? "mr-0" : "mr-20"
-            } text-white`}
+            className={`font-poppins font-normal cursor-pointer text-[20px] text-center w-[100px] py-1 hover:border-b-4 border-yellow-500 border-solid duration-200 ${index === navLinks.length - 1 ? "mr-0" : "mr-20"
+              } text-white`}
           >
             <Link to={nav.id} smooth duration={500}>
               {nav.title}
@@ -58,37 +60,35 @@ const Nav = () => {
         />
 
         <div
-          className={`${
-            toggle ? "flex fixed" : "hidden"
-          } bg-black top-[100px] right-0 p-10 w-full h-full z-50 duration-1000 `}
+          className={`${toggle ? "flex fixed" : "hidden"
+            } bg-black top-[100px] right-0 p-10 w-full h-full z-50 duration-1000 `}
         >
           <ul className="list-none flex flex-col justify-start items-center pt-10 gap-8 flex-1">
             {navLinks.map((nav, index) => (
               <li
+
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  index === navLinks.length - 1 ? "mr-0" : "mb-4"
-                } text-white`}
+                className={`font-poppins font-medium cursor-pointer text-[16px] ${index === navLinks.length - 1 ? "mr-0" : "mb-4"
+                  } text-white`}
               >
-                <Link to={nav.id} smooth duration={500}>
+                <Link to={nav.id} smooth duration={500} onClick={() => { setToggle(false) }}>
                   {nav.id}
                 </Link>
               </li>
             ))}
 
-            <button className="bg-[#FDB705] px-5 py-3 rounded-md font-bold mt-10">
-              Register Now
-            </button>
+
           </ul>
         </div>
       </div>
-
-      <button
-        style={{ boxShadow: "0px 0px 70px 0px #FBBC04" }}
-        className="hidden sm:block bg-[#FDB705] w-[206px] h-[47px] rounded-lg font-bold hover:text-white duration-700 hover:shadow-register-now"
-      >
-        Register Now
-      </button>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSep0M9OpmJsknJku8rXsjIX26Ltj4cmDgp4NNEajsaOE4p5Bg/viewform">
+        <button
+          style={{ boxShadow: "0px 0px 70px 0px #FBBC04" }}
+          className="hidden sm:block bg-[#FDB705] w-[206px] h-[47px] rounded-lg font-bold hover:text-white duration-700 hover:shadow-register-now"
+        >
+          Register Now
+        </button>
+      </a>
     </nav>
   );
 };

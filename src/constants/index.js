@@ -8,10 +8,8 @@ import {
   blue,
   red,
   yellow,
-  akram,
-  hamza,
-  riad,
-  mohamed,
+  akram,riad,mohamed,hamza,
+  DjallalBouabdallah, AnasYahya, AhmedBachirCherif, RAOUFRAHICHE, MouhTalks, toumi, boula7ya,
   redAgenda,
   greenAgenda,
   whiteAgenda,
@@ -49,23 +47,24 @@ export const navLinks = [
 export const videos = [
   {
     id: "1",
-    title: "DR.Riyadh Baghdadi’s Talk About Ai in Devfest 2022  03/11/2022",
-    URL: "/videos/video.mp4",
+    title: "Dr.Riyadh Baghdadi's talk in Devfest 2022",
+    URL: "https://www.youtube.com/embed/AzDU96Pd-Uw?si=g3Lzcb6ZK1_Oi7Nl",
   },
+
   {
     id: "2",
-    title: "DR.Riyadh Baghdadi’s Talk About Ai in Devfest 2022  03/11/2022",
-    URL: "/videos/video.mp4",
+    title: "Bilel Medjahed's talk in Devfest 2022",
+    URL: "https://www.youtube.com/embed/zCiJpPL2vvA?si=O905Gq-fnV3EFEu-",
   },
   {
     id: "3",
-    title: "DR.Riyadh Baghdadi’s Talk About Ai in Devfest 2022  03/11/2022",
-    URL: "/videos/video.mp4",
+    title: "Abdelmajid's Hayi Talk in DevFest 2022",
+    URL: "https://www.youtube.com/embed/6Hr0oVTRXtA?si=SGOSWd6ou5cCNOQ0",
   },
   {
     id: "4",
-    title: "DR.Riyadh Baghdadi’s Talk About Ai in Devfest 2022  03/11/2022",
-    URL: "/videos/video.mp4",
+    title: "Devfest 2022 Recap video by GDG Medea 🎊👨‍💻",
+    URL: "https://www.youtube.com/embed/KwbIt3XMa1Y?si=K1IQ9NNZQ2FYg_Dw",
   },
 ];
 
@@ -108,10 +107,10 @@ export const feedBack = [
 export const speakers = [
   {
     id: 1,
-    name: "Name Speaker",
-    title: "Conference Title",
+    name: "KAMAL YOUCEF TOUMI",
+    title: "a Professor at MIT",
     time: " 09:30 -11:00",
-    url: Ellipse,
+    url: toumi,
     shape: yellow,
     color: "#FDB705",
     icons: [
@@ -141,10 +140,10 @@ export const speakers = [
   },
   {
     id: 2,
-    name: "Name Speaker",
-    title: "Conference Title",
+    name: "Dr. Abderrazak BACHIR BOUIADJRA",
+    title: " a world wide Leader in Cybersecurity and Networking",
     time: " 09:30 -11:00",
-    url: Ellipse1,
+    url: boula7ya,
     shape: blue,
     color: "#4285F4",
     icons: [
@@ -178,10 +177,10 @@ export const speakers = [
   },
   {
     id: 3,
-    name: "Name Speaker",
-    title: "Conference Title",
+    name: "Dr. Taha Zerrouki",
+    title: "Assistant Professor at Bouira University",
     time: " 09:30 -11:00",
-    url: Ellipse2,
+    url: DjallalBouabdallah,
     shape: red,
     color: "#BC2121",
     icons: [
@@ -215,10 +214,10 @@ export const speakers = [
   },
   {
     id: 4,
-    name: "Name Speaker",
-    title: "Conference Title",
+    name: " Anas Yahya",
+    title: "Product Designer",
     time: " 09:30 -11:00",
-    url: Ellipse3,
+    url: AnasYahya,
     shape: green,
     color: "#2A7706",
     icons: [
@@ -248,10 +247,76 @@ export const speakers = [
   },
   {
     id: 5,
-    name: "Name Speaker",
-    title: "Conference Title",
+    name: "Ahmed Bachir Cherif",
+    title: "Expert at UX,UI design & Visual identity, Founder of TicThink",
     time: " 09:30 -11:00",
-    url: Ellipse4,
+    url: AhmedBachirCherif,
+    shape: yellow,
+    color: "#FDB705",
+    icons: [
+      { icon: faBehance, link: " behance" },
+      { icon: faDiscord, link: " behance" },
+      { icon: faFacebook, link: " behance" },
+    ],
+    captions: [
+      {
+        id: 1,
+        caption: "Network administrator",
+      },
+      {
+        id: 2,
+        caption: "Full-stack developer",
+      },
+      {
+        id: 3,
+        caption: "Graphic designer",
+      },
+      {
+        id: 3,
+        caption:
+          "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "Raouf Rahiche",
+    title: "Google Flutter developer expert, Flutter and desktop app developer",
+    time: " 09:30 -11:00",
+    url: RAOUFRAHICHE,
+    shape: yellow,
+    color: "#FDB705",
+    icons: [
+      { icon: faBehance, link: " behance" },
+      { icon: faDiscord, link: " behance" },
+      { icon: faFacebook, link: " behance" },
+    ],
+    captions: [
+      {
+        id: 1,
+        caption: "Network administrator",
+      },
+      {
+        id: 2,
+        caption: "Full-stack developer",
+      },
+      {
+        id: 3,
+        caption: "Graphic designer",
+      },
+      {
+        id: 3,
+        caption:
+          "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "Mohammed Mouzaoui",
+    title: "Developer, Content creator & Founder of Khadmoney",
+    time: " 09:30 -11:00",
+    url: MouhTalks,
     shape: yellow,
     color: "#FDB705",
     icons: [

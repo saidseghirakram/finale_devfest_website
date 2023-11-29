@@ -9,12 +9,14 @@ const Registering = () => {
         </h1>
       </Fade>
       <Fade direction="up" triggerOnce>
-        <button
-          style={{ boxShadow: "0px 0px 70px 0px #FBBC04" }}
-          className=" bg-[#FDB705] w-[250px] sm:w-[349px] h-[92px] md:w-[503px] md-h-[125px] rounded-full  font-bold text-[30px] sm:text-[48px] text-white hover:text-white duration-700 hover:shadow-register-now"
-        >
-          Register Now
-        </button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSep0M9OpmJsknJku8rXsjIX26Ltj4cmDgp4NNEajsaOE4p5Bg/viewform">
+          <button
+            style={{ boxShadow: "0px 0px 70px 0px #FBBC04" }}
+            className=" bg-[#FDB705] w-[250px] sm:w-[349px] h-[92px] md:w-[503px] md-h-[125px] rounded-full  font-bold text-[30px] sm:text-[48px] text-white hover:text-white duration-700 hover:shadow-register-now"
+          >
+            Register Now
+          </button>
+        </a>
       </Fade>
     </div>
   );

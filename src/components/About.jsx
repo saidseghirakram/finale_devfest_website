@@ -40,7 +40,7 @@ const About = () => {
   }, [participants, conferences]);
 
   return (
-    <div className="relative min-h-[2989px]" id="about">
+    <div className="relative" id="about">
       <div className="flex w-[100%] md:justify-end justify-center mt-16">
        <Fade direction="right" triggerOnce>
        <img
@@ -54,13 +54,8 @@ const About = () => {
       {/* start definition */}
     <Fade direction="up" triggerOnce>
     <p className=" w-[85%] self-stretch pt-16 pb-24 text-white text-center font-google-sd text-[22px] sm:text-[28px] md:text-[36px]  font-normal mx-auto">
-        Devfest is a technology-focused event organized by Google Developer
-        Groups (GDGs) or other tech communities worldwide. The term "Devfest" is
-        a portmanteau of "developer" and "festival." Devfest events typically
-        feature a wide range of activities and sessions related to technology,
-        software development, and innovation. These events are open to a diverse
-        audience, including developers, designers, tech enthusiasts, students,
-        and professionals.
+       “DevFest, short for Developer Festival, is a series of community-led events that bring together students developers and technologists in the technology industry. These events are organised by Google Developer Groups (GDGs) around the world, and they aim to create a collaborative and inclusive environment for learning, sharing knowledge, and networking.”
+
       </p>
     </Fade>
 

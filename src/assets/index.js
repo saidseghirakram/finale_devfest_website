@@ -23,7 +23,14 @@ import akram from "./speaker_img/akram.svg"
 import riad from "./speaker_img/riad.svg"
 import mohamed from "./speaker_img/mohamed.svg"
 import hamza from "./speaker_img/hamza.svg"
-export { akram ,riad ,mohamed ,hamza }
+import DjallalBouabdallah from "./speaker_img/_Djallal Bouabdallah .jpg"
+import AnasYahya from "./speaker_img/Anas Yahya.jpg"
+import AhmedBachirCherif from "./speaker_img/dcdc.png"
+import RAOUFRAHICHE from "./speaker_img/RAOUF RAHICHE.jpg"
+import MouhTalks from "./speaker_img/MouhTalks.png"
+import toumi from "./speaker_img/toumi.png"
+import boula7ya from "./speaker_img/boula7ya.png"
+export { akram ,riad ,mohamed , hamza ,DjallalBouabdallah,AnasYahya,AhmedBachirCherif,RAOUFRAHICHE,MouhTalks,toumi,boula7ya }
 
 
 
