@@ -284,8 +284,8 @@ export const speakers = [
     title: "Google Flutter developer expert, Flutter and desktop app developer",
     time: " 09:30 -11:00",
     url: RAOUFRAHICHE,
-    shape: yellow,
-    color: "#FDB705",
+    shape: blue,
+    color: "#4285F4",
     icons: [
       { icon: faBehance, link: " behance" },
       { icon: faDiscord, link: " behance" },
@@ -317,8 +317,8 @@ export const speakers = [
     title: "Developer, Content creator & Founder of Khadmoney",
     time: " 09:30 -11:00",
     url: MouhTalks,
-    shape: yellow,
-    color: "#FDB705",
+    shape: red,
+    color: "#BC2121",
     icons: [
       { icon: faBehance, link: " behance" },
       { icon: faDiscord, link: " behance" },
