@@ -34,7 +34,7 @@ const Nav = () => {
       <img
         src={logo}
         alt="devfest"
-        className="w-28 h-10 sm:w-44 sm:h-16 md:w-56 md:h-20 object-contain"
+        className="w-28 h-10 max-sm:hidden sm:w-44 sm:h-16 md:w-56 md:h-20 object-contain"
       />
 
       <ul className="list-none hidden lg:flex justify-center items-center flex-1">
@@ -51,7 +51,7 @@ const Nav = () => {
         ))}
       </ul>
 
-      <div className="flex lg:hidden flex-1  justify-center items-center">
+      <div className="flex lg:hidden flex-1 max-sm:justify-start  justify-center items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
