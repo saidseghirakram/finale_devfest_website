@@ -50,7 +50,7 @@ const Footer = () => {
               target="_blanc"
               className="text-[#FDB705] text-center font-google-sd text-[17px] md:text-[20px] font-700 underline"
             >
-              Akram Said Saghir
+              Akram Said Seghir
             </a>
             <span className="text-[#FEFEFE] text-center font-google-sd text-[17px] md:text-[20px] font-700">
               &
