@@ -99,7 +99,7 @@ export const feedBack = [
     avatar: akram,
     comment:
       "I love attending Devfest every year. It's a hub of knowledge sharing, where you can explore the latest trends, attend workshops, and hear from industry experts. It's a great place to gain insights into emerging technologies.",
-    Fname: "akram said seghir",
+    Fname: "fettah said seghir",
     occupation: "GDG Member & ISWT Student",
   },
 ];
