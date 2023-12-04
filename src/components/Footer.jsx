@@ -18,7 +18,7 @@ const Footer = () => {
         {footer.map((item) => (
           <Fade key={item.id} direction="up" delay={item.id * 150} triggerOnce>
             <div key={item.id} className=" ">
-              <a href="http" className="">
+              <a href={item.link} className="">
                 <FontAwesomeIcon
                   className="text-white text-[28px] hover:text-[#F9AB00]"
                   icon={item.src}
