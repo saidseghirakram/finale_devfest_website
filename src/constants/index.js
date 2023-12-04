@@ -461,8 +461,8 @@ export const TimeMap = [
 ];
 
 export const footer = [
-  { id: 1, src: faDiscord },
-  { id: 2, src: faBehance },
-  { id: 3, src: faFacebook },
-  { id: 4, src: faGithub },
+  { id: 1, src: faDiscord , link:"https://discord.gg/7EYys8Zs" },
+  { id: 2, src: faBehance , link:"https://discord.gg/7EYys8Zs" },
+  { id: 3, src: faFacebook , link:"https://discord.gg/7EYys8Zs" },
+  { id: 4, src: faGithub , link:"https://discord.gg/7EYys8Zs" },
 ];
