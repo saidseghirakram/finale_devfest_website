@@ -24,6 +24,8 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons/faDiscord";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
+
 
 export const navLinks = [
   {
@@ -462,7 +464,7 @@ export const TimeMap = [
 
 export const footer = [
   { id: 1, src: faDiscord , link:"https://discord.gg/7EYys8Zs" },
-  { id: 2, src: faBehance , link:"https://discord.gg/7EYys8Zs" },
-  { id: 3, src: faFacebook , link:"https://discord.gg/7EYys8Zs" },
-  { id: 4, src: faGithub , link:"https://discord.gg/7EYys8Zs" },
+  { id: 2, src: faLinkedin  , link:"https://www.linkedin.com/company/88971303/admin/feed/posts/" },
+  { id: 3, src: faFacebook , link:"https://web.facebook.com/26gdgmedea" },
+  { id: 4, src: faInstagram , link:"https://www.instagram.com/gdgmedea/?hl=fr" },
 ];
