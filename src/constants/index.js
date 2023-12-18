@@ -107,7 +107,7 @@ export const feedBack = [
 ];
 
 export const speakers = [
-  /* {
+   {
     id: 1,
     name: "KAMAL YOUCEF TOUMI",
     title: "a Professor at MIT",
@@ -139,7 +139,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  }, */
+  }, 
  /*  {
     id: 2,
     name: "Dr. Abderrazak BACHIR BOUIADJRA",
