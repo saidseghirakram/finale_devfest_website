@@ -140,7 +140,7 @@ export const speakers = [
       },
     ],
   }, */
-  {
+ /*  {
     id: 2,
     name: "Dr. Abderrazak BACHIR BOUIADJRA",
     title: " a world wide Leader in Cybersecurity and Networking",
@@ -213,7 +213,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  },
+  } ,*/
   {
     id: 4,
     name: " Anas Yahya",
