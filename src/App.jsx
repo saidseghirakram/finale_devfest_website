@@ -23,7 +23,7 @@ function App() {
             <Nav />
             <Hero />
           <About />
-          {/* <Agenda /> */}
+          <Agenda />
           <Speakers />
           <Registering />
           <Footer />
