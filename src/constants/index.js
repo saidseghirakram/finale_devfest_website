@@ -145,7 +145,7 @@ export const speakers = [
     name: "Abderrahime abdellaoui",
     title: "Content creator in business administration and digital marketing ,  Founder of Moustach",
     time: " 09:30 -11:00",
-    url: Boudegna,
+    url: abd,
     shape: blue,
     color: "#4285F4",
     icons: [
@@ -177,12 +177,12 @@ export const speakers = [
       },
     ],
   }, 
- /*  {
+  {
     id: 3,
-    name: "Djallal Bouabdallah",
-    title: "engineer in Automatics and Electronics and Chief Strategy Officer",
+    name: "Zineddine Boudegna",
+    title: "Cybersecurity Architect ,Graduated from Washington DC institute of Standards end technology",
     time: " 09:30 -11:00",
-    url: DjallalBouabdallah,
+    url: Boudegna,
     shape: red,
     color: "#BC2121",
     icons: [
@@ -213,7 +213,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  },  */ 
+  },  
   {
     id: 4,
     name: " Anas Yahya",
