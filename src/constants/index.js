@@ -7,7 +7,7 @@ import {
   green,
   blue,
   red,
-  yellow,Taha_Zerrouki,
+  yellow,taha_Zerrouki,
   akram,riad,mohamed,hamza,
   DjallalBouabdallah, AnasYahya, AhmedBachirCherif, RAOUFRAHICHE, MouhTalks, toumi, boula7ya,,
   redAgenda,
@@ -112,7 +112,7 @@ export const speakers = [
     name: "Taha_Zerrouki",
     title: "Open sources in the service of Arabic",
     time: " 09:30 -11:00",
-    url: Taha_Zerrouki,
+    url: taha_Zerrouki,
     shape: yellow,
     color: "#FDB705",
     icons: [
