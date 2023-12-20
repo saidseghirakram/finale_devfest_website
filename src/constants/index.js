@@ -9,7 +9,7 @@ import {
   red,
   yellow,taha_Zerrouki,
   akram,riad,mohamed,hamza,
-  DjallalBouabdallah, AnasYahya, AhmedBachirCherif, RAOUFRAHICHE, MouhTalks, toumi, boula7ya,
+  DjallalBouabdallah, AnasYahya, AhmedBachirCherif, RAOUFRAHICHE, MouhTalks, toumi, boula7ya,abd,Boudegna,
   redAgenda,
   greenAgenda,
   whiteAgenda,
@@ -139,13 +139,13 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  } , /* 
+  } ,  
    {
     id: 2,
-    name: "Dr. Abderrazak BACHIR BOUIADJRA",
-    title: " a world wide Leader in Cybersecurity and Networking",
+    name: "Abderrahime abdellaoui",
+    title: "The CEO of RMM (rahim media marketing), Doctor of Economics,Content creator in the field of business administration and digital marketing , Founder of moustachir",
     time: " 09:30 -11:00",
-    url: boula7ya,
+    url: Boudegna,
     shape: blue,
     color: "#4285F4",
     icons: [
@@ -176,7 +176,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  }, */
+  }, 
  /*  {
     id: 3,
     name: "Djallal Bouabdallah",
