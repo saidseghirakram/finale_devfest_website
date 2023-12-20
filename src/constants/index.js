@@ -143,7 +143,7 @@ export const speakers = [
    {
     id: 2,
     name: "Abderrahime abdellaoui",
-    title: "The CEO of RMM (rahim media marketing), Doctor of Economics,Content creator in the field of business administration and digital marketing , Founder of moustachir",
+    title: "Content creator in business administration and digital marketing ,  Founder of Moustach",
     time: " 09:30 -11:00",
     url: Boudegna,
     shape: blue,
