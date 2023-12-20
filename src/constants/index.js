@@ -139,7 +139,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  } , 
+  } , /* 
    {
     id: 2,
     name: "Dr. Abderrazak BACHIR BOUIADJRA",
@@ -176,7 +176,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  },
+  }, */
   {
     id: 3,
     name: "Djallal Bouabdallah",
