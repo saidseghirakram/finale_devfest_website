@@ -177,7 +177,7 @@ export const speakers = [
       },
     ],
   }, */
-  {
+ /*  {
     id: 3,
     name: "Djallal Bouabdallah",
     title: "engineer in Automatics and Electronics and Chief Strategy Officer",
@@ -213,7 +213,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  } ,
+  },  */ 
   {
     id: 4,
     name: " Anas Yahya",
