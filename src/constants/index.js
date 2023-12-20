@@ -110,7 +110,7 @@ export const speakers = [
      {
     id: 1,
     name: "Taha_Zerrouki",
-    title: "Open sources in the service of Arabic",
+    title: "PhD from Esi Algiers ,Professor at Bouira University",
     time: " 09:30 -11:00",
     url: taha_Zerrouki,
     shape: yellow,
@@ -143,7 +143,7 @@ export const speakers = [
    {
     id: 2,
     name: "Abderrahime abdellaoui",
-    title: "Content creator in business administration and digital marketing ,  Founder of Moustach",
+    title: "Content creator in business administration and digital marketing ,  Founder of Moustachir",
     time: " 09:30 -11:00",
     url: abd,
     shape: blue,
@@ -217,7 +217,7 @@ export const speakers = [
   {
     id: 4,
     name: " Anas Yahya",
-    title: "Product Designer",
+    title: "Product Designer , UI/UX Designer",
     time: " 09:30 -11:00",
     url: AnasYahya,
     shape: green,
