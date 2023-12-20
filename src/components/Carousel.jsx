@@ -64,7 +64,7 @@ const Carousel = () => {
           </div>
         ))}
       </div>
-      <div className="absolute z-30 flex space-x-3 -translate-x-1/2 top-5 left-1/2 sm:bottom-5 sm:top-auto sm:left-auto lg:left-1/2 sm:right-0 lg:right-auto">
+      <div className="absolute z-9 flex space-x-3 -translate-x-1/2 top-5 left-1/2 sm:bottom-5 sm:top-auto sm:left-auto lg:left-1/2 sm:right-0 lg:right-auto">
         {feedBack.map((item, index) => (
           <button
             key={index}
