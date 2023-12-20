@@ -9,7 +9,7 @@ import {
   red,
   yellow,taha_Zerrouki,
   akram,riad,mohamed,hamza,
-  DjallalBouabdallah, AnasYahya, AhmedBachirCherif, RAOUFRAHICHE, MouhTalks, toumi, boula7ya,,
+  DjallalBouabdallah, AnasYahya, AhmedBachirCherif, RAOUFRAHICHE, MouhTalks, toumi, boula7ya,
   redAgenda,
   greenAgenda,
   whiteAgenda,
@@ -139,7 +139,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  }/* , 
+  } , 
    {
     id: 2,
     name: "Dr. Abderrazak BACHIR BOUIADJRA",
@@ -345,7 +345,7 @@ export const speakers = [
           "Master network administration and security at the Ahmed Ben Bella high school in Oran (ex IGMO)AA",
       },
     ],
-  }, */
+  }, 
 ];
 
 export const TimeMap = [
