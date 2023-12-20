@@ -26,11 +26,13 @@ import hamza from "./speaker_img/hamza.svg"
 import DjallalBouabdallah from "./speaker_img/_Djallal Bouabdallah .jpg"
 import AnasYahya from "./speaker_img/Anas Yahya.jpg"
 import AhmedBachirCherif from "./speaker_img/dcdc.png"
+import Taha_Zerrouki from "./speaker_img/Taha_Zerrouki.jpg"
+import Ahmed_Bachir from "./speaker_img/Ahmed_Bachir.jpeg"
 import RAOUFRAHICHE from "./speaker_img/RAOUF RAHICHE.jpg"
 import MouhTalks from "./speaker_img/MouhTalks.png"
 import toumi from "./speaker_img/toumi.png"
 import boula7ya from "./speaker_img/boula7ya.png"
-export { akram ,riad ,mohamed , hamza ,DjallalBouabdallah,AnasYahya,AhmedBachirCherif,RAOUFRAHICHE,MouhTalks,toumi,boula7ya }
+export { akram ,riad ,mohamed , hamza ,DjallalBouabdallah,AnasYahya,AhmedBachirCherif,RAOUFRAHICHE,MouhTalks,toumi,boula7ya ,Taha_Zerrouki,Ahmed_Bachir }
 
 
 
