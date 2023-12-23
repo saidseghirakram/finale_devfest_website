@@ -8,7 +8,7 @@ import {
   blue,
   red,
   yellow,taha_Zerrouki,
-  akram,riad,mohamed,hamza,
+  akram,riad,mohamed,hamza,nabil ,
   DjallalBouabdallah, AnasYahya, AhmedBachirCherif, RAOUFRAHICHE, MouhTalks, toumi, boula7ya,abd,Boudegna,
   redAgenda,
   greenAgenda,
@@ -109,10 +109,10 @@ export const feedBack = [
 export const speakers = [
      {
     id: 1,
-    name: "Taha_Zerrouki",
-    title: "PhD from Esi Algiers ,Professor at Bouira University",
+    name: "Dr. Nabil",
+    title: "Partner engineer google cloud at Google PhD in computer science",
     time: " 09:30 -11:00",
-    url: taha_Zerrouki,
+    url: nabil,
     shape: yellow,
     color: "#FDB705",
     icons: [
