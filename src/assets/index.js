@@ -30,6 +30,7 @@ import taha_Zerrouki from "./speaker_img/Taha_Zerrouki.jpg"
 import Ahmed_Bachir from "./speaker_img/Ahmed_Bachir.jpeg"
 import RAOUFRAHICHE from "./speaker_img/RAOUF RAHICHE.jpg"
 import Boudegna from "./speaker_img/Boudegna.jpg"
+import nabil from "./speaker_img/nabil.jpeg"
 import abd from "./speaker_img/abd.jpg"
 
 
