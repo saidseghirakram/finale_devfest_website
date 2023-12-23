@@ -37,7 +37,7 @@ import abd from "./speaker_img/abd.jpg"
 import MouhTalks from "./speaker_img/MouhTalks.png"
 import toumi from "./speaker_img/toumi.png"
 import boula7ya from "./speaker_img/boula7ya.png"
-export { akram ,riad ,mohamed , hamza ,DjallalBouabdallah,AnasYahya,AhmedBachirCherif,RAOUFRAHICHE,MouhTalks,toumi,boula7ya ,taha_Zerrouki,Ahmed_Bachir,Boudegna,abd }
+export { akram ,riad ,mohamed , hamza ,DjallalBouabdallah,AnasYahya,AhmedBachirCherif,RAOUFRAHICHE,MouhTalks,toumi,boula7ya ,taha_Zerrouki,Ahmed_Bachir,Boudegna,abd , nabil  }
 
 
 
